@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formularios</title>
+    <style>
+        label, input, textarea, button {
+            display:block;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Cartelera de Eventos</h1>
+    <form action="form.html" method="post">
+     <label for="name">Name</label>
+     <input type="text" name="name" id="name">
+
+     <h2>Cuales son tus Categorías Musicales Preferidas</h2>
+     <input type="checkbox" name="categories" id="cat1" value="Clasica">
+     <label for="cat1">Clasica</label>
+     <input type="checkbox" name="categories" id="cat2" value="norteño">
+     <label for="cat2">Norteño</label>
+     <input type="checkbox" name="categories" id="cat3" value="pop">
+     <label for="cat3">Pop</label>
+     <input type="checkbox" name="categories" id="cat4" value="rock">
+     <label for="cat4">Rock</label>
+
+     <h2>Cual es tu fecha</h2>
+     <label for="date">que dia fuiste al evento</label>
+     <input type="date" name="date" id="date">
+     
+     <h2>Hora</h2>
+     <label for="time">a que hora te vas</label>
+     <input type="time" name="time" id="time">
+
+     <h2>Email escribelo aqui</h2>
+     <label for="mail">correro</label>
+     <input type="email" name="mail" id="mail">
+
+     <h2>Pic</h2>
+     <label for="picture">sube tu foto</label>
+     <input type="file" name="picture" id="picture">
+
+     <h2>Chelas</h2>
+     <label for="chelas">cuantas chelas te tomaste</label>
+     <input type="number" name="chelas" id="chelas" min=0 max=5>
+
+     <h2>URL</h2>
+     <label for="fburl">cual es tu fb</label>
+     <input type="url" name="fburl" id="fburl">
+
+     <h2>Elije el puntaje</h2>
+     <label for="grade">en general cuanto te gusto</label>
+     <input type="range" name="grade" id="grade" min=0 max=5>
+
+     <h2>Cual es tu preferido</h2>
+     <input type="radio" name="time" id="time1" value="night">
+     <label for="time1">night</label>
+     <input type="radio" name="time" id="time2" value="day">
+     <label for="time2">day</label>
+
+     <label for="comments">Deja tus comentarios</label>
+     <textarea name="comments" id="comments"></textarea>
+
+     <button type="submit">OK</button>
+    </form>
+</body>
+</html>
