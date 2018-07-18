@@ -1,3 +1,34 @@
+*{
+    --bg-color: pink;
+}
+
+body {
+    font-size: 20px;
+    color: var(--bg-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.degree {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+aside {
+    background-color: blanchedalmond;
+}
+.remark {
+    background-color: darkgreen;
+}
+.main-titles {
+    background-color: red;
+}
+.main-titles h1 {
+    color: darkslategrey;
+}
+.main-titles h2 {
+    color: blueviolet;
+    font-size: 50px;
+}
+
 *
 {
     box-sizing: border-box;
@@ -20,7 +51,7 @@ header {
 }
 body {
     font-size: 20px;
-    color: dimgray;
+    color: var(--bg-color)
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,7 +82,7 @@ main {
     top: 0;
 }
 .remark {
-    background-color: darkgreen;
+    background-color: var(--bg-color)
 }
 .main-titles {
     background-color: red;
@@ -98,7 +129,7 @@ footer a {
 }
 .remark {
     padding: 20px;
-    background-color: darkgray;
+    background-color: var(--bg-color);
 }
 .references img {
     width: 100px;
